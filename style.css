@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Handlee&family=Merienda&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Merienda', cursive;
+}
