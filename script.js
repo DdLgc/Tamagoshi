@@ -16,10 +16,34 @@ Ses envies :
 - 💩 : caca, aléatoire minimum 30 sec et max 1.30 minutes après avoir mangé
 */
 
-const tamaName = prompt("Quel est  nom a votre tamagoshi?")
-const character = document.querySelector(".js-character");
-character.textContent = "🐣";
+const startTama = () => {
+  const tamaName = prompt("Quel est  nom a votre tamagoshi?");
+  const character = document.querySelector(".js-character");
+  character.textContent = "🐣";
 
-const vitals = document.querySelector(".js-vitals");
-console.log(vitals);
-vitals.classList.remove("hidden");
+  const vitals = document.querySelector(".js-vitals");
+  vitals.classList.remove("hidden");
+
+  const nameDisplay = document.querySelector(".js-tamaName");
+  nameDisplay.textContent = tamaName;
+
+  const scoresDisplay = document.querySelectorAll(".js-score");
+
+  scoresDisplay.forEach((score) => {
+    score.textContent = 5;
+  });
+};
+
+// Réveiller le Tamagoshi 
+
+
+const buttonCenter = document.querySelector('.js-button[data-direction="center"]');
+
+let count = 0;
+buttonCenter.addEventListener("click", () => {
+    count++;
+    console.log("click", count);
+    if (count === 5){
+        startTama();
+    }
+});
