@@ -26,7 +26,7 @@
       </li>
       <li class="vitals__item">
         <p class="vitals__subtitle">Propreté</p>
-        <p class="vitals__number  js-score--clean">0</p>
+        <p class="vitals__number js-score--clean">0</p>
         <p class="vitals__mention">/ 5</p>
       </li>
       <li class="vitals__item">
@@ -35,7 +35,7 @@
         <p class="vitals__mention">/ 5</p>
       </li>
       <li class="vitals__item">
-        <p class="vitals__subtitle">Durée de vie en min</p>
+        <p class="vitals__subtitle">Durée de vie en minutes</p>
         <p class="vitals__number js-life-duration">0</p>
         <p class="vitals__mention">de <span class="js-tamaName"></span></p>
       </li>
@@ -49,20 +49,31 @@
       </h1>
       <div class="tamagoshi__screen">
         <ul class="tamagoshi__container-actions js-actions hidden">
-          <li class="tamagoshi__actions">🍖</li>
-          <li class="tamagoshi__actions">🎳</li>
-          <li class="tamagoshi__actions">🚽</li>
-          <li class="tamagoshi__actions">🧽</li>
+          <li class="tamagoshi__actions js-button-action" data-desire="eat">🍖</li>
+          <li class="tamagoshi__actions js-button-action" data-desire="play">🎳</li>
+          <li class="tamagoshi__actions js-button-action" data-desire="clean">🚽</li>
+          <li class="tamagoshi__actions js-button-action">🧽</li>
         </ul>
+        <div class="tamagoshi__desire js-desire"></div>
         <div class="tamagoshi__character js-character">🥚</div>
       </div>
       <div class="tamagoshi__container-buttons">
-        <button class="tamagoshi__button js-button" data-direction="left"></button>
-        <button class="tamagoshi__button js-button" data-direction="center"></button>
-        <button class="tamagoshi__button js-button" data-direction="right"></button>
+        <button
+          class="tamagoshi__button js-button"
+          data-direction="left"
+        ></button>
+        <button
+          class="tamagoshi__button js-button"
+          data-direction="center"
+        ></button>
+        <button
+          class="tamagoshi__button js-button"
+          data-direction="right"
+        ></button>
       </div>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 

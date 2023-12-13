@@ -20,7 +20,15 @@ Ses envies :
 - 🥱 : jouer, aléatoire minimum 30 sec et max 3 minutes
 - 💩 : caca, aléatoire minimum 30 sec et max 1.30 minutes après avoir mangé
 
+### Ameliorations
+
+-> Utiliser les boutons du bas pour se deplacerr avec celui de gauche et de droite
+-> le rendre plus responsive 
+-> ajouté plusieurs envie en meme temps 
+-> ajouté des conditions d'événement (par ex: mangé et faire caca c'est pas propre tu perd un point de propreté)
+
+
 ### Links
-[![Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)  
+[![Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)]()  
 [![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)  
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DdLgc/Tamagoshi)  
